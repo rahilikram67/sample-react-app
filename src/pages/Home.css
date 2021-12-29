@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+    .navbar-fixed-top {
+        display: none !important;
+    }
+    .navbar {
+        display: block !important;
+    }
+}
+@media (min-width: 769px) {
+    .navbar-fixed-top {
+        display: block !important;
+    }
+    .navbar {
+        display: none !important;
+    }
+}
+.menu-btn {
+    float: right;
+    border-radius: 10px;
+    margin-top: 1.5%;
+    margin-right: 20vw;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid darkgray;
+}
+.menu-btn:hover{
+    outline: 2px solid darkgray;
+}
+.navbar{
+    position: fixed;
+    background-color: aliceblue;
+    width: 100%;
+    z-index: 10;
+}
+.navbar .collapse{
+    position: fixed;
+    background-color: aliceblue;
+    width: 100vw;
+    z-index: 10;
+}
+.rhino-mobile{
+    margin-left: 20px;
+}
